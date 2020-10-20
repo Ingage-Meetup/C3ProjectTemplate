@@ -1,8 +1,8 @@
 using NUnit.Framework;
 
-namespace Meeting_0819.Test
+namespace Project.Test
 {
-    public class Tests
+    public class ProjectTests
     {
         [SetUp]
         public void Setup()

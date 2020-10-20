@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Meeting_20200819
+namespace Project
 {
     class Program
     {
