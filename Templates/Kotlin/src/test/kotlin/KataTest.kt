@@ -13,6 +13,6 @@ class KataTest {
     @Test
     fun `hello should return message with specified name`() {
         val name = "Ingage"
-        assertEquals("Hello $name", fixture.hello(name));
+        assertEquals("Hello $name", fixture.hello(name))
     }
 }
