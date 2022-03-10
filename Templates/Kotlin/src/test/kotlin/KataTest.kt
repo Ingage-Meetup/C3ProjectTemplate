@@ -1,6 +1,6 @@
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
-import kotlin.test.assertEquals
 
 class KataTest {
     private lateinit var fixture: Kata
