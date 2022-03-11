@@ -46,6 +46,17 @@ describe("Wordwrap test", function() {
     it("two pairs of characters separated by a space with width of 4 returns the pairs separated by a space", function() {
         assert.equal(wordWrap("xx xx", 4), "xx\nxx")
     })
+    it("more bunches of passing tests", function() {
+        assert.equal(wordWrap("xx xx", 5), "xx xx")
+        assert.equal(wordWrap("xx xx xx", 1), "x\nx\nx\nx\nx\nx")
+        assert.equal(wordWrap("xx xx xx", 2), "xx\nxx\nxx")
+        assert.equal(wordWrap("xx xx xx", 3), "xx\nxx\nxx")
+        assert.equal(wordWrap("xx xx xx", 4), "xx\nxx\nxx")
+        assert.equal(wordWrap("xx xx xx", 5), "xx xx\nxx")
+        assert.equal(wordWrap("xx xx xx", 6), "xx xx\nxx")
+        assert.equal(wordWrap("xx xx xx", 7), "xx xx\nxx")
+        assert.equal(wordWrap("xx xx xx", 8), "xx xx xx")
+    })
 
 
 })
