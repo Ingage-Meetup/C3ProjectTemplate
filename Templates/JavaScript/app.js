@@ -1,5 +1,5 @@
-function wordWrap() {
-    return ""
+function wordWrap(inputString, width) {
+    return inputString
 }
 
 module.exports = { wordWrap };
