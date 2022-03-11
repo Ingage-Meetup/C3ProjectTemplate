@@ -1,6 +1,10 @@
-const { doAllTheThings } = require('./app');
+const { assert } = require("chai")
+const { wordWrap  } = require("./app")
 
-// This is a Jest unit test - see https://jestjs.io/docs/en/getting-started for more information
-test('doAllTheThings should be true', () => {
-    expect(doAllTheThings()).toBeTruthy();
-});
+
+describe("Wordwrap test", function() {
+    it("empty string with width of 1 returns empty string", function() {
+        assert.equal("", wordWrap("", 1))
+    })
+})
+        

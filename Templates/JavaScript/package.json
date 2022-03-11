@@ -4,7 +4,7 @@
   "description": "C3 Meetup Scaffolding",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "mocha app.test.js",
     "start": "node index.js"
   },
   "author": "Ingage Partners",
