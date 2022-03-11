@@ -21,5 +21,10 @@ describe("Wordwrap test", function() {
     it("three characters with width of 2 returns 2 characters, newline, then 3rd character", function() {
         assert.equal(wordWrap("xxx", 2), "xx\nx")
     })
+    it("three characters with width of 3 returns the characters", function() {
+        assert.equal(wordWrap("xxx", 2), "xx\nx")
+    })
+
+
 })
         
