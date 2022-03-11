@@ -15,5 +15,9 @@ describe("Wordwrap test", function() {
     it("two characters with width of 2 returns  the characters", function() {
         assert.equal(wordWrap("xx", 2), "xx")
     })
+    it("three characters with width of 1 returns characters separated by newline", function() {
+        assert.equal(wordWrap("xxx", 1), "x\nx\nx")
+    })
+
 })
         
