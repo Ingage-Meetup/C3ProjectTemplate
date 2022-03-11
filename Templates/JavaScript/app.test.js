@@ -30,6 +30,9 @@ describe("Wordwrap test", function() {
     it("two characters separated by a space with width of 2 returns the characters separated by a newline", function() {
         assert.equal(wordWrap("x x", 2), "x\nx")
     })
+    it("two characters separated by a space with width of 3 returns the characters separated by a space", function() {
+        assert.equal(wordWrap("x x", 3), "x x")
+    })
 
 
 
