@@ -3,8 +3,6 @@
 function doAllTheThings() {
     console.log("Hi there");
     return true;
-function wordWrap() {
-    return ""
 }
 
 module.exports = { doAllTheThings };
