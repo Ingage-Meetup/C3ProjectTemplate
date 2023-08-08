@@ -2,13 +2,8 @@
 
 1. Ensure Python 3.x and Pip are installed:
 
-```
 
-sudo apt install python3-pip
-
-```
-
-1. Clone the template and navigate into the project directory:
+2. Clone the template and navigate into the project directory:
 
 ```
 git clone <repository_url> my_project
@@ -16,7 +11,7 @@ cd my_project
 ```
 
 
-2. Set up a virtual environment (recommended) and activate it.
+3. Set up a virtual environment (recommended) and activate it.
 
 On linux, run the following commands:
 
@@ -33,7 +28,7 @@ python3 -m venv venv
 venv\Scripts\activate
 ```
 
-3. Install project dependencies from the `requirements.txt` file.
+4. Install project dependencies from the `requirements.txt` file.
 
 ```
 pip install -r requirements.txt
