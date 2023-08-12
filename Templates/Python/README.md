@@ -15,7 +15,9 @@ cd my_project
 
 On linux, run the following commands:
 
+NOTE: You may need to prefix the apt-get and apt commands with `sudo` to give appropriate permissions to install python
 ```
+apt-get update
 apt install python3.10-venv
 python3 -m venv venv
 source venv/bin/activate
@@ -27,6 +29,8 @@ On Windows, run the following commands:
 python3 -m venv venv
 venv\Scripts\activate
 ```
+
+If python3 is not found run `python3` by itself to install from the windows store
 
 4. Install project dependencies from the `requirements.txt` file.
 
