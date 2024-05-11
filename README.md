@@ -22,8 +22,8 @@ To create a duplicate repository from this one, follow these steps:
 
 5. Remove the temporary local repository you created earlier.
 
-    ```cd ..```
-    ```rm -rf OLD-REPOSITORY.git```
+    ```cd ..
+    rm -rf OLD-REPOSITORY.git```
 
 Your new repository now contains a mirror of this repo.
 
