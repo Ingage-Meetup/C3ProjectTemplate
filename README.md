@@ -14,14 +14,14 @@ To create a duplicate repository from this one, follow these steps:
 3. Create a bare clone of the repository.
 
     ```
-    git clone --bare https://github.com/EXAMPLE-USER/MyNewRepo.git
+    git clone --bare https://github.com/Ingage-Meetup/MyNewRepo.git
     ```
 
 4. Mirror-push to the new repository.
   
     ```
     cd MyNewRepo.git
-    git push --mirror https://github.com/EXAMPLE-USER/MyNewRepo.git
+    git push --mirror https://github.com/Ingage-Meetup/MyNewRepo.git
     ```
 
 5. Remove the temporary local repository you created earlier.
