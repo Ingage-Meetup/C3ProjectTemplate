@@ -17,13 +17,13 @@ To create a duplicate repository from this one, follow these steps:
 
 4. Mirror-push to the new repository.
   
-  ```cd OLD-REPOSITORY.git
-  git push --mirror https://github.com/EXAMPLE-USER/NEW-REPOSITORY.git```
+  ```cd OLD-REPOSITORY.git```
+  ```git push --mirror https://github.com/EXAMPLE-USER/NEW-REPOSITORY.git```
 
 5. Remove the temporary local repository you created earlier.
 
-  ```cd ..
-    rm -rf OLD-REPOSITORY.git```
+  ```cd ..```
+    ```rm -rf OLD-REPOSITORY.git```
 
 Your new repository now contains a mirror of this repo.
 
