@@ -13,7 +13,9 @@ To create a duplicate repository from this one, follow these steps:
 
 3. Create a bare clone of the repository.
 
-    ```git clone --bare https://github.com/EXAMPLE-USER/MyNewRepo.git```
+    ```
+    git clone --bare https://github.com/EXAMPLE-USER/MyNewRepo.git
+    ```
 
 4. Mirror-push to the new repository.
   
