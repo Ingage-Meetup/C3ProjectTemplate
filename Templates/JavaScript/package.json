@@ -4,14 +4,12 @@
   "description": "C3 Meetup Scaffolding",
   "main": "index.js",
   "scripts": {
-    "test": "jest app.test.js",
-    "start": "node index.js"
+    "test": "npx jest",
+    "test:watch": "npx jest --watchAll"
   },
   "author": "Ingage Partners",
   "license": "BSD-3-Clause",
   "devDependencies": {
-    "chai": "^4.3.6",
-    "jest": "^26.2.2",
-    "mocha": "^9.2.1"
+    "jest": "^28.1.3"
   }
 }
